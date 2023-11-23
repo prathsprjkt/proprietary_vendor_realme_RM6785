@@ -989,8 +989,6 @@ PRODUCT_PACKAGES += \
     libvp9dec_sa.ca7 \
     libvpud_vcodec \
     libvt_custom \
-    libwvhidl \
-    libwvdrmengine \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.mtkcodecservice@1.1 \
     APUWareUtilsServer \
