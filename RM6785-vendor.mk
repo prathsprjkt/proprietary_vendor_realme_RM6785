@@ -799,7 +799,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg
 
 PRODUCT_PACKAGES += \
-    libem_support_jni \
     libaptXHD_encoder \
     libaptX_encoder \
     arm.graphics-V1-ndk_platform \
@@ -1644,6 +1643,7 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
+    libem_support_jni \
     libcomutils \
     libimsma \
     libimsma_adapt \
@@ -1669,9 +1669,9 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.commondcs@1.0 \
     vendor.oplus.hardware.orms@1.0 \
     vendor.oplus.hardware.radio@1.0 \
-    EngineerMode \
     ImsService \
     HotwordEnrollmentOKGoogleCORTEXM4 \
+    EngineerMode \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
